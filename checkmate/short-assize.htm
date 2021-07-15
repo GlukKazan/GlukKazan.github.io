@@ -27,7 +27,6 @@
 <tr><td><a href="javascript:Dagaz.Controller.undo()" style="display:none" id="undo"><img src="../images/undo.png"/></a>
 Traditional - Europe (<a target="_blank" href="https://en.wikipedia.org/wiki/Short_assize">rules</a>)
 <a href="javascript:Dagaz.Controller.newGame()">New Game</a>
-<a href="short-assize-board.htm">no AI</a>
 <a href="javascript:Dagaz.Controller.sound()" id="sound">no Sound</a>
 <a href="javascript:Dagaz.Controller.redo()" style="display:none" id="redo"><img src="../images/redo.png"/></a></td></tr>
 <tr style="height:548px; vertical-align:top">
@@ -54,20 +53,22 @@ Traditional - Europe (<a target="_blank" href="https://en.wikipedia.org/wiki/Sho
 </table>
 
 <script src="../underscore/underscore-min.js"></script>
+<script src="../underscore/seedrandom.min.js"></script>
 <script src="../common-scripts/dagaz.js"></script>
 <script src="../common-scripts/zrf-model.js"></script>
-<script src="../common-scripts/zobrist.js"></script>
-<script src="../common-scripts/common-setup-v3.js"></script>
+<script src="../common-scripts/zobrist-v2.js"></script>
 <script src="../common-scripts/2d-view-v3.js"></script>
 <script src="../common-scripts/move-list-v3.js"></script>
 <script src="../common-scripts/session-manager.js"></script>
 <script src="../common-scripts/sound-manager-v2.js"></script>
 <script src="../common-scripts/random-ai.js"></script>
-<script src="../common-scripts/maxmin-ai-v2.js"></script>
+<script src="../common-scripts/garbo-ai-v2.js"></script>
 <script src="scripts/chess-goal.js"></script>
 <script src="scripts/chess-promotion.js"></script>
 <script src="scripts/chess-invariant.js"></script>
 <script src="scripts/spark-view.js"></script>
+<script src="scripts/short-assize-ai.js"></script>
+<script src="scripts/short-assize-setup.js"></script>
 <script src="scripts/short-assize-extension.js"></script>
 <script src="scripts/short-assize-restriction.js"></script>
 <script src="scripts/short-assize.js"></script>
